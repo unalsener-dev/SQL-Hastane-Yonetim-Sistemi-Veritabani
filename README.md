@@ -3,7 +3,7 @@ Bu proje, temel bir hastane yönetim sisteminin ihtiyaçlarını karşılamak ü
 
 Bu projenin temel amacı, hasta kayıtları, doktor bilgileri, eczane işlemleri, reçeteler ve tahlil sonuçları gibi temel sağlık verilerini yönetmek için yapılandırılmış bir veritabanı oluşturmaktır. Veritabanı, bu varlıklar arasındaki ilişkileri (foreign keys) kullanarak veri bütünlüğünü sağlar.
 
-Veritabanı Şeması
+
 Veritabanı, aşağıdaki 6 ana tablodan oluşmaktadır:
 hasta: Hastaların demografik bilgilerini tutar.
 doktor: Doktorların sicil numarası, uzmanlık alanı ve maaş gibi bilgilerini içerir.
@@ -12,7 +12,7 @@ recete: Yazılan reçetelerdeki ilaç adı, fiyatı ve toplam tutar gibi detayla
 hasta_detay: Hasta, doktor, eczane ve reçete tabloları arasında köprü kurarak muayene kayıtlarını oluşturur.
 tahlil: Hastalara yapılan tahlillerin sonuçlarını ve maliyetlerini içerir.
 
-Dosyalar
+
 Bu repoda iki ana SQL dosyası bulunmaktadır:
 
 Veritabani_Olusturma.sql:
